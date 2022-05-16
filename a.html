@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+       *{margin: 0;padding: 0;box-sizing: border-box;}
+      body{font-family: Arial, Helvetica, sans-serif;}
+      .nav{display:flex;justify-content:right;align-items:center;gap:100px;background-color: aqua;margin:0;height:40px;padding:20px;width:100%;}
+      .imgx {width:70px;height:40px;}
+      .whasap{background-color: brown;display: flex;justify-content: right;align-items: center;height:40px;width:100%;}
+      .wa{text-align: center;font-size: 30px;width:3%;background-color: rgb(255, 0, 0);height:80%;}
+      .infowhasap{text-align:left;font-size: 30px;width:600px;background-color: rgb(141, 226, 43);margin: 5px;height:30px;}
+      @media screen and (max-width:800px) {
+         .nav{gap:15px;padding:5px;font-size:12px;}
+         .wa{width:10%;}
+      }
+      @media screen and (max-width:400px) {
+         .nav{gap:12px;padding:5px;font-size:12px;}
+         .wa{width:10%;}
+      }
+   </style>
+   </head>
+   <body>
+      <div class="nav">
+         <img class="imgx" src="fb.png" alt="">
+         <a href="#">CONTACTOS</a>
+         <a href="#">CONTACTOS</a>
+         <a href="#">CONTACTOS</a>
+         <a href="#">CONTACTOS</a>
+      </div>
+      <div class="whasap">
+         <img class="wa" src="wa.png" alt="">
+         <p class="infowhasap">0961655965 0985777571 044619285</p>
+      </div>
+   </body>
+</html>
